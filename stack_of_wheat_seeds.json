@@ -1,0 +1,17 @@
+{
+    "id": "stack_of_wheat_seeds",
+    "name": "Stack Of Wheat Seeds",
+    "version": "*",
+    "src_category": "",
+    "conditions": [
+		[
+			{
+                "type": "player_stat",
+                "name": "stack_of_wheat_seeds",
+                "category": "minecraft:picked_up",
+                "stat": "minecraft:wheat_seeds",
+                "goal": 64
+            }
+		]
+	]
+}
